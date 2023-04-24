@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.mvc {
+    height: 250px;
+    width: 275px;
+    float: right;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.model-container
+{
+    display: flex;
+    justify-content: space-between;
+}
